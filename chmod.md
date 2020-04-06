@@ -20,7 +20,7 @@ fUUUGGGOOO or dUUUGGGOOO
 total of 10 bits. Can be represented as: - - - - - - - - - -
 
 
- <h3><b><body><text="000000">Permissions:</b></h3></body>
+ <b><font color="000000">Permissions:</b></font>
 
 
 We talked about the owners of the file above. Different types of owners (U, G, or O) have different types of permissions/access (R or W or X):
