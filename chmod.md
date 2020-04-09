@@ -38,31 +38,82 @@ For example, lets understand what the following modes mean and how they are calc
 #
 #</form>
 
+<table> <!--#----------------Headings------------ -->
+  <th></th>
+  <th>Read (R)</th>
+  <th>Write (W)</th>
+  <th>Execute (X)</th>
 
-<table>
-  <tr>
-  	<th></th>
-    <th>Read (R)</th>
-    <th>Write (W)</th>
-    <th>Execute (X)</th>
+  <!---------Table data for table rows------------->
+
+  <tr> <!---------Row 1------------->
+    <td><b>User (U)</b></td>
+
+    <td>
+      <input type="checkbox" id="User-Read" name="User-Read" value="User-Read"><label for="User-Read"></label>
+    </td>
+
+    <td>
+      <input type="checkbox" id="User-Write" name="User-Write" value="User-Write"><label for="User-Write"></label>
+    </td>
+
+    <td>
+      <input type="checkbox" id="User-Execute" name="User-Execute" value="User-Execute"><label for="User-Execute"></label>
+    </td>
   </tr>
-  <tr>
-    <td>User (U)</td>
-    <td><input type="checkbox" id="Read for user" name="Read for user" value="Read">
-    <label for="Read for user"></label></td>
-   </tr>
     
-    <tr>
-    <td>Group (G)</td>
-    <td><input type="checkbox" id="Write for user" name="Write for user" value="Write">
-    <label for="Write for user"></label></td>
-    </tr>
-    
-    <tr>
-    <td>Execute (E)</td>
-    <td><input type="checkbox" id="Execute for user" name="Execute for user" value="Execute">
-    <label for="Execute for user"></label></td>
+
+  <tr> <!---------Row 2------------->
+    <td><b>Group (G)</b></td>
+
+    <td>
+      <input type="checkbox" id="Group-Read" name="Group-Read" value="Group-Read">
+      <label for="Group-Read"></label>
+    </td>
+
+    <td>
+      <input type="checkbox" id="Group-Write" name="Group-Write" value="Group-Write">
+      <label for="Group-Write"></label>
+    </td>
+
+    <td>
+      <input type="checkbox" id="Group-Execute" name="Group-Execute" value="Group-Execute">
+      <label for="Group-Execute"></label>
+    </td>
   </tr>
-  
+    
+
+  <tr> <!---------Row 3------------->
+    <td><b>Other (O)</b></td>
+
+    <td>
+      <input type="checkbox" id="Group-Read" name="Group-Read" value="Group-Read"><label for="Group-Read"></label>
+    </td>
+
+    <td>
+        <input type="checkbox" id="Group-Write" name="Group-Write" value="Group-Write"><label for="Group-Write"></label>
+    </td>
+
+    <td>
+        <input type="checkbox" id="Group-Execute" name="Group-Execute" value="Group-Execute"><label for="Group-Execute"></label>
+    </td>
+</tr>  
 </table>
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
