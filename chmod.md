@@ -34,9 +34,9 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 
 For example, lets understand what the following modes mean and how they are calculated:
 
-#<form>
-#
-#</form>
+
+
+<!--Explain how and why it is calculated -->
 
 <table> <!--#----------------Headings------------ -->
   <th></th>
