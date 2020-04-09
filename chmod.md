@@ -50,11 +50,11 @@ For example, lets understand what the following modes mean and how they are calc
     <td><b>User (U)</b></td>
 
     <td>
-      <input type="checkbox" id="User-Read" name="User-Read" value="1"><label for="User-Read"></label>
+      <input type="checkbox" id="User-Read" name="User-Read" value="4"><label for="User-Read"></label>
     </td>
 
     <td>
-      <input type="checkbox" id="User-Write" name="User-Write" value="1"><label for="User-Write"></label>
+      <input type="checkbox" id="User-Write" name="User-Write" value="2"><label for="User-Write"></label>
     </td>
 
     <td>
@@ -67,12 +67,12 @@ For example, lets understand what the following modes mean and how they are calc
     <td><b>Group (G)</b></td>
 
     <td>
-      <input type="checkbox" id="Group-Read" name="Group-Read" value="1">
+      <input type="checkbox" id="Group-Read" name="Group-Read" value="4">
       <label for="Group-Read"></label>
     </td>
 
     <td>
-      <input type="checkbox" id="Group-Write" name="Group-Write" value="1">
+      <input type="checkbox" id="Group-Write" name="Group-Write" value="2">
       <label for="Group-Write"></label>
     </td>
 
@@ -87,11 +87,11 @@ For example, lets understand what the following modes mean and how they are calc
     <td><b>Other (O)</b></td>
 
     <td>
-      <input type="checkbox" id="Group-Read" name="Group-Read" value="1"><label for="Group-Read"></label>
+      <input type="checkbox" id="Group-Read" name="Group-Read" value="4"><label for="Group-Read"></label>
     </td>
 
     <td>
-        <input type="checkbox" id="Group-Write" name="Group-Write" value="1"><label for="Group-Write"></label>
+        <input type="checkbox" id="Group-Write" name="Group-Write" value="2"><label for="Group-Write"></label>
     </td>
 
     <td>
