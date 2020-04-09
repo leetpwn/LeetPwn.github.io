@@ -36,6 +36,7 @@ For example, lets understand what the following modes mean and how they are calc
 
 <form>
 <input type="checkbox" id="Read" name="Read" value="Read">
-<label for "Read">Test</label></form>
+<label for="Read">Test</label>
+</form>
 
 
