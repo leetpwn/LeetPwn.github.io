@@ -34,9 +34,15 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 
 For example, lets understand what the following modes mean and how they are calculated:
 
-<form>
-<input type="checkbox" id="Read" name="Read" value="Read">
-<label for="Read">Test</label>
-</form>
+#<form>
+#<input type="checkbox" id="Read" name="Read" value="Read">
+#<label for="Read">Test</label>
+#</form>
+
+<table>
+ <tr>Read (R)</tr>
+ <tr>Write (W)</tr>
+ <tr>Execute (X)</tr>
+ </table>
 
 
