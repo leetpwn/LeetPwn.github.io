@@ -33,3 +33,9 @@ We talked about the owners of the file above. Different types of owners (U, G, o
  In Unix based systems, you cannot run a file unless the execute (X) permissoin is set. If the X is not set, you might still be able to view the program code(provided read & write permissions are set), but not run it. (just like .exe executable in Windows!)
 
 For example, lets understand what the following modes mean and how they are calculated:
+
+<form>
+<input type="checkbox" id="Read" name="Read" value="Read">
+<label for "Read">Test</label></form>
+
+
