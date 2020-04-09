@@ -50,19 +50,19 @@ For example, lets understand what the following modes mean and how they are calc
     <td>User (U)</td>
     <td><input type="checkbox" id="Read for user" name="Read for user" value="Read">
     <label for="Read for user"></label></td>
-   
+   </tr>
+    
+    <tr>
     <td>Group (G)</td>
     <td><input type="checkbox" id="Write for user" name="Write for user" value="Write">
     <label for="Write for user"></label></td>
+    </tr>
     
+    <tr>
     <td>Execute (E)</td>
     <td><input type="checkbox" id="Execute for user" name="Execute for user" value="Execute">
     <label for="Execute for user"></label></td>
   </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-    <td>te</td>
-  </tr>
+  
 </table>
 
