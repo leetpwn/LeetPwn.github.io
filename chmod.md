@@ -1,9 +1,3 @@
-<html>
-<head>Chmod with Chmod Calculator
-<title>Chmod calculator<title>
-<body>
-<h1><b><center>Chmod</center></b></h1>
-
 In UNIX based systems, there are 3 types of owners (U or G or O) of a file (<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">Everything in Linux is a file!</a>)
 
 
@@ -121,5 +115,3 @@ For example, lets understand what the following modes mean and how they are calc
 <br>
 <br>
 <br>
-</body>
-</html>
