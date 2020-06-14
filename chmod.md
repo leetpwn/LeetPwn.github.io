@@ -97,6 +97,7 @@ For example, lets understand what the following modes mean and how they are calc
 </tr>  
 </table>
 
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
 
 
 <br>
