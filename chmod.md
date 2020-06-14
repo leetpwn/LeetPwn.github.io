@@ -1,4 +1,142 @@
+<html>
+<head>
+<script type="text/javascript">
+<!--
 
+/*
+Jeroen's Chmod Calculator- By Jeroen Vermeulen of Alphamega Hosting <jeroen@alphamegahosting.com> 
+Visit http://www.javascriptkit.com for this script and more
+This notice must stay intact
+*/
+ 
+function octalchange() 
+{
+	var val = document.chmod.t_total.value;
+	var ownerbin = parseInt(val.charAt(0)).toString(2);
+	while (ownerbin.length<3) { ownerbin="0"+ownerbin; };
+	var groupbin = parseInt(val.charAt(1)).toString(2);
+	while (groupbin.length<3) { groupbin="0"+groupbin; };
+	var otherbin = parseInt(val.charAt(2)).toString(2);
+	while (otherbin.length<3) { otherbin="0"+otherbin; };
+	document.chmod.owner4.checked = parseInt(ownerbin.charAt(0)); 
+	document.chmod.owner2.checked = parseInt(ownerbin.charAt(1));
+	document.chmod.owner1.checked = parseInt(ownerbin.charAt(2));
+	document.chmod.group4.checked = parseInt(groupbin.charAt(0)); 
+	document.chmod.group2.checked = parseInt(groupbin.charAt(1));
+	document.chmod.group1.checked = parseInt(groupbin.charAt(2));
+	document.chmod.other4.checked = parseInt(otherbin.charAt(0)); 
+	document.chmod.other2.checked = parseInt(otherbin.charAt(1));
+	document.chmod.other1.checked = parseInt(otherbin.charAt(2));
+	calc_chmod(1);
+};
+
+function calc_chmod(nototals)
+{
+  var users = new Array("owner", "group", "other");
+  var totals = new Array("","","");
+  var syms = new Array("","","");
+
+	for (var i=0; i<users.length; i++)
+	{
+	  var user=users[i];
+		var field4 = user + "4";
+		var field2 = user + "2";
+		var field1 = user + "1";
+		//var total = "t_" + user;
+		var symbolic = "sym_" + user;
+		var number = 0;
+		var sym_string = "";
+	
+		if (document.chmod[field4].checked == true) { number += 4; }
+		if (document.chmod[field2].checked == true) { number += 2; }
+		if (document.chmod[field1].checked == true) { number += 1; }
+	
+		if (document.chmod[field4].checked == true) {
+			sym_string += "r";
+		} else {
+			sym_string += "-";
+		}
+		if (document.chmod[field2].checked == true) {
+			sym_string += "w";
+		} else {
+			sym_string += "-";
+		}
+		if (document.chmod[field1].checked == true) {
+			sym_string += "x";
+		} else {
+			sym_string += "-";
+		}
+	
+		//if (number == 0) { number = ""; }
+	  //document.chmod[total].value = 
+		totals[i] = totals[i]+number;
+		syms[i] =  syms[i]+sym_string;
+	
+  };
+	if (!nototals) document.chmod.t_total.value = totals[0] + totals[1] + totals[2];
+	document.chmod.sym_total.value = "-" + syms[0] + syms[1] + syms[2];
+}
+window.onload=octalchange
+//-->
+</script>
+</head>
+
+
+<body>
+<form name="chmod">
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" style="font:normal 12px Verdana";>
+<TR ALIGN="LEFT" VALIGN="MIDDLE">
+<TD>Permissions: </TD>
+<TD><input type="text" name="t_total" value="751" size="4" onKeyUp="octalchange()"> </TD>
+<TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
+</TR>
+</TABLE>
+<BR>
+<table cellpadding="2" cellspacing="0" border="0" style="font:normal 12px Verdana">
+<tr bgcolor="#333333">
+<td WIDTH="60" align="left"> </td>
+<td WIDTH="55" align="center" style="color:white"><b>owner
+</b></td>
+<td WIDTH="55" align="center" style="color:white"><b>group
+</b></td>
+<td WIDTH="55" align="center" style="color:white"><b>other
+<b></td>
+</tr>
+<tr bgcolor="#dddddd">
+<td WIDTH="60" align="left" nowrap BGCOLOR="#FFFFFF">read</td>
+<td WIDTH="55" align="center" bgcolor="#EEEEEE">
+<input type="checkbox" name="owner4" value="4" onclick="calc_chmod()">
+</td>
+<td WIDTH="55" align="center" bgcolor="#ffffff"><input type="checkbox" name="group4" value="4" onclick="calc_chmod()">
+</td>
+<td WIDTH="55" align="center" bgcolor="#EEEEEE">
+<input type="checkbox" name="other4" value="4" onclick="calc_chmod()">
+</td>
+</tr>
+<tr bgcolor="#dddddd">		
+<td WIDTH="60" align="left" nowrap BGCOLOR="#FFFFFF">write</td>
+<td WIDTH="55" align="center" bgcolor="#EEEEEE">
+<input type="checkbox" name="owner2" value="2" onclick="calc_chmod()"></td>
+<td WIDTH="55" align="center" bgcolor="#ffffff"><input type="checkbox" name="group2" value="2" onclick="calc_chmod()">
+</td>
+<td WIDTH="55" align="center" bgcolor="#EEEEEE">
+<input type="checkbox" name="other2" value="2" onclick="calc_chmod()">
+</td>
+</tr>
+<tr bgcolor="#dddddd">		
+<td WIDTH="60" align="left" nowrap BGCOLOR="#FFFFFF">execute</td>
+<td WIDTH="55" align="center" bgcolor="#EEEEEE">
+<input type="checkbox" name="owner1" value="1" onclick="calc_chmod()">
+</td>
+<td WIDTH="55" align="center" bgcolor="#ffffff"><input type="checkbox" name="group1" value="1" onclick="calc_chmod()">
+</td>
+<td WIDTH="55" align="center" bgcolor="#EEEEEE">
+<input type="checkbox" name="other1" value="1" onclick="calc_chmod()">
+</td>
+</tr>
+</table>
+<span style="font:normal 11px Arial">This free JavaScript provided by <a href="http://www.javascriptkit.com">JavaScript Kit</a></span>
+</form>
 <h1><b><center>Chmod</center></b></h1>
 
 In UNIX based systems, there are 3 types of owners (U or G or O) of a file (<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">Everything in Linux is a file!</a>)
@@ -99,6 +237,7 @@ For example, lets understand what the following modes mean and how they are calc
     </td>
 </tr>  
 </table>
+</body>
 
 
 <br>
@@ -117,3 +256,4 @@ For example, lets understand what the following modes mean and how they are calc
 <br>
 <br>
 <br>
+</html>
