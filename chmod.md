@@ -97,7 +97,7 @@ For example, lets understand what the following modes mean and how they are calc
 </tr>  
 </table>
 
-Permissions: <p id="text" style="display:none">Checkbox is CHECKED!</p>
+<h1>Permissions:</h1> <p id="text" style="display:none">Checkbox is CHECKED!</p>
 
 
 <br>
