@@ -37,7 +37,7 @@ For example, lets understand what the following modes mean and how they are calc
 
 <table> <!--#----------------Headings------------ -->
   <th></th>
-  <th>Read (R)</th>
+  <th>Read. (R)</th>
   <th>Write (W)</th>
   <th>Execute (X)</th>
 
@@ -97,7 +97,7 @@ For example, lets understand what the following modes mean and how they are calc
 </tr>  
 </table>
 
-<p id="text" style="display:none">Checkbox is CHECKED!</p>
+Permissions: <p id="text" style="display:none">Checkbox is CHECKED!</p>
 
 
 <br>
