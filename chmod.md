@@ -114,13 +114,12 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 
  <br><br>In Unix based systems, you cannot run a file unless the execute (X) permission is set. If the X is not set, you might still be able to view the program code(provided read & write permissions are set), but not run it. (just like .exe executable in Windows!)
 
-<br>For example, lets understand what the following modes mean and how they are calculated:<br>
-
+<br><br>For example, lets understand what the following modes mean and how they are calculated:<br>
 
 <form name="chmod">
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" style="font:normal 12px Verdana">
 <TR ALIGN="LEFT" VALIGN="MIDDLE">
-<b><TD><h4>Permissions:</h4></b></TD>
+<TD><h4><b>Permissions:</b></h4></TD>
 <TD><input type="text" name="t_total" value="751" size="4" onKeyUp="octalchange()"></TD>
 <TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
 </TR>
