@@ -83,23 +83,23 @@ window.onload=octalchange
  
   
   
-  In UNIX based systems, there are 3 types of owners (U or G or O) of a file (<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">Everything in Linux is a file!</a>)
+  In UNIX based systems, there are 3 types of owners (U or G or O) of a file (<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">Everything in Linux is a file!</a>)<br>
 
 
 <br><b>User (U)</b> - The user is also the owner of the file. The creator of the files becomes the owner of the file.
 
 
-<br><b>Group (G)</b> - A group can contain multiple users. All the users in the group will have the same type of permissions or access.
+<br><br><b>Group (G)</b> - A group can contain multiple users. All the users in the group will have the same type of permissions or access.
 
 
-<br><b>Other (O)</b> - All the other users who have access to the file.  
+<br><br><b>Other (O)</b> - All the other users who have access to the file.<br>
 
 
-<br>So, when ever we see chmod we are always seeing this format of results, mainly:
+<br>So, whenever we see chmod we are always seeing this format of results, mainly:<br>
 
 <br>fUUUGGGOOO or dUUUGGGOOO 
 
-<br>total of 10 bits. Can be represented as: - - - - - - - - - -
+<br><br>total of 10 bits. Can be represented as: - - - - - - - - - -
 
 <br>
  <p><b><font color="white">Permissions:</font></b></p>
@@ -114,13 +114,13 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 
  <br><br>In Unix based systems, you cannot run a file unless the execute (X) permission is set. If the X is not set, you might still be able to view the program code(provided read & write permissions are set), but not run it. (just like .exe executable in Windows!)
 
-<br>For example, lets understand what the following modes mean and how they are calculated:
+<br>For example, lets understand what the following modes mean and how they are calculated:<br>
 
 
 <form name="chmod">
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" style="font:normal 12px Verdana">
 <TR ALIGN="LEFT" VALIGN="MIDDLE">
-	<b><TD><h4>Permissions:</h4></b></TD>
+<b><TD><h4>Permissions:</h4></b></TD>
 <TD><input type="text" name="t_total" value="751" size="4" onKeyUp="octalchange()"></TD>
 <TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
 </TR>
@@ -137,7 +137,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </b></td>
 </tr>
 <tr bgcolor="#dddddd">
-	<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Read</b></td>
+<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Read</b></td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner4" value="4" onclick="calc_chmod()">
 </td>
@@ -148,7 +148,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </td>
 </tr>
 <tr bgcolor="#dddddd">		
-	<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Write</b></td>
+<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Write</b></td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner2" value="2" onclick="calc_chmod()"></td>
 <td WIDTH="55" align="center" bgcolor="#ffffff"><input type="checkbox" name="group2" value="2" onclick="calc_chmod()">
@@ -158,7 +158,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </td>
 </tr>
 <tr bgcolor="#dddddd">		
-	<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Execute</b></td>
+<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Execute</b></td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner1" value="1" onclick="calc_chmod()">
 </td>
