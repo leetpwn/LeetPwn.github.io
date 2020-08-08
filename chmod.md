@@ -1,5 +1,4 @@
 <html>
- <title>Change Mode Calculator</title>
  <head>
   <script type="text/javascript">
 <!--
