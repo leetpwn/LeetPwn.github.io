@@ -106,7 +106,7 @@ window.onload=octalchange
 
 We talked about the owners of the file above. Different types of owners (U, G, or O) have different types of permissions/access (R or W or X):
 
-<br><b>Read (R)</b>: read permission gives you the ability to open and read a file. The read permission on a directory means that we have access to list the directory.
+<br><b>(R)</b>: read permission gives you the ability to open and read a file. The read permission on a directory means that we have access to list the directory.
 
 <br><b>Write (W)</b>: write permission gives you the authority of modifying the contents of the file. Write permission on a directory gives you the permission to add, delete or rename files in the directory. 
 
@@ -137,7 +137,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </b></td>
 </tr>
 <tr bgcolor="#dddddd">
-<td WIDTH="60" align="left" nowrap BGCOLOR="#FFFFFF">read</td>
+<td WIDTH="60" align="left" nowrap BGCOLOR="#696969">read</td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner4" value="4" onclick="calc_chmod()">
 </td>
