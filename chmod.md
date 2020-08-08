@@ -83,7 +83,6 @@ window.onload=octalchange
  
   
   
-<body>  
   In UNIX based systems, there are 3 types of owners (U or G or O) of a file (<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">Everything in Linux is a file!</a>)
 
 
@@ -121,7 +120,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 <form name="chmod">
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" style="font:normal 12px Verdana";>
 <TR ALIGN="LEFT" VALIGN="MIDDLE">
-<TD>Permissions: </TD>
+<br><TD>Permissions: </TD>
 <TD><input type="text" name="t_total" value="751" size="4" onKeyUp="octalchange()"> </TD>
 <TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
 </TR>
@@ -171,7 +170,4 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </tr>
 </table>
 <span style="font:normal 11px Arial">This free JavaScript provided by <a href="http://www.javascriptkit.com">JavaScript Kit</a></span>
-</form>
- 
-</body>
-</html>
+
