@@ -120,9 +120,9 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 <form name="chmod">
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" style="font:normal 12px Verdana">
 <TR ALIGN="LEFT" VALIGN="MIDDLE">
-	<b><TD><h2>Permissions1: </h2></b></TD>
-<TD><input type="text" name="t_total" value="751" size="5" onKeyUp="octalchange()"></TD>
-<TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
+	<b><TD><h4>Permissions: </h4></b></TD>
+<TD><input type="text" name="t_total" value="751" size="7" onKeyUp="octalchange()"></TD>
+<TD><input type="text" name="sym_total" value="" size="15" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
 </TR>
 </TABLE>
 <BR>
