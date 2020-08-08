@@ -137,7 +137,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </b></td>
 </tr>
 <tr bgcolor="#dddddd">
-<td WIDTH="60" align="left" nowrap BGCOLOR="#696969">read</td>
+	<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Read</b></td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner4" value="4" onclick="calc_chmod()">
 </td>
@@ -148,7 +148,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </td>
 </tr>
 <tr bgcolor="#dddddd">		
-<td WIDTH="60" align="left" nowrap BGCOLOR="#FFFFFF">write</td>
+	<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Write</b></td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner2" value="2" onclick="calc_chmod()"></td>
 <td WIDTH="55" align="center" bgcolor="#ffffff"><input type="checkbox" name="group2" value="2" onclick="calc_chmod()">
@@ -158,7 +158,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 </td>
 </tr>
 <tr bgcolor="#dddddd">		
-<td WIDTH="60" align="left" nowrap BGCOLOR="#FFFFFF">execute</td>
+	<td WIDTH="60" align="left" nowrap BGCOLOR="#696969"><b>Execute</b></td>
 <td WIDTH="55" align="center" bgcolor="#EEEEEE">
 <input type="checkbox" name="owner1" value="1" onclick="calc_chmod()">
 </td>
