@@ -35,6 +35,10 @@ For example, lets understand what the following modes mean and how they are calc
 
 <!--Explain how and why it is calculated -->
 
+
+<!-- #Comment begins
+
+
 <table> <!--#----------------Headings------------ -->
   <th></th>
   <th>Read. (R)</th>
@@ -96,6 +100,10 @@ For example, lets understand what the following modes mean and how they are calc
     </td>
 </tr>  
 </table>
+
+
+#Comment ends -->
+
 
 <script type="text/javascript">
 <!--
