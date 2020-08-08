@@ -79,9 +79,8 @@ function calc_chmod(nototals)
 window.onload=octalchange
 //-->
 </script>
- </head>
+</head>
  
-  
   
   In UNIX based systems, there are 3 types of owners (U or G or O) of a file (<a href="https://en.wikipedia.org/wiki/Everything_is_a_file">Everything in Linux is a file!</a>)<br>
 
@@ -118,8 +117,8 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 
 <form name="chmod">
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0" style="font:normal 12px Verdana">
-<TR ALIGN="LEFT" VALIGN="MIDDLE">
-<TD><h4><b><br>Permissions:</b></h4></TD>
+<TR ALIGN="LEFT" VALIGN="MIDDLE"><br>
+<TD><h4><b>Permissions:</b></h4></TD>
 <TD><input type="text" name="t_total" value="751" size="4" onKeyUp="octalchange()"></TD>
 <TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
 </TR>
