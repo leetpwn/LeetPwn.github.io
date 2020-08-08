@@ -106,11 +106,11 @@ window.onload=octalchange
 
 We talked about the owners of the file above. Different types of owners (U, G, or O) have different types of permissions/access (R or W or X):
 
-<br><b>(R)</b>: read permission gives you the ability to open and read a file. The read permission on a directory means that we have access to list the directory.
+<br><br><b>(R)</b>: read permission gives you the ability to open and read a file. The read permission on a directory means that we have access to list the directory.
 
-<br><b>Write (W)</b>: write permission gives you the authority of modifying the contents of the file. Write permission on a directory gives you the permission to add, delete or rename files in the directory. 
+<br><br><b>Write (W)</b>: write permission gives you the authority of modifying the contents of the file. Write permission on a directory gives you the permission to add, delete or rename files in the directory. 
 
-<br><b>Execute (X)</b>
+<br><br><b>Execute (X)</b>
 
  <br><br>In Unix based systems, you cannot run a file unless the execute (X) permission is set. If the X is not set, you might still be able to view the program code(provided read & write permissions are set), but not run it. (just like .exe executable in Windows!)
 
