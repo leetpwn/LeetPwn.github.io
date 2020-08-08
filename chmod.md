@@ -116,14 +116,14 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 <br><br>For example, lets understand what the following modes mean and how they are calculated:<br>
 
 <form name="chmod">
-<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="" style="font:normal 14px Verdana">
-<TR ALIGN="LEFT" VALIGN="LEFT"><br>
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="" style="font:normal 15px Verdana">
+<TR ALIGN="LEFT" VALIGN="MIDDLE"><br>
 <TD><h4><b>Permissions:</b></h4></TD>
 	<TD><input type="text" name="t_total" value="751" size="4" onKeyUp="octalchange()"></TD>
 <TD><input type="text" name="sym_total" value="" size="12" READONLY="1" STYLE='border: 0px none; font-family: "Courier New", Courier, mono;'></TD>
 </TR>
 </TABLE>
-<table cellpadding="2" cellspacing="0" border="0" style="font:normal 14px Verdana">
+<table cellpadding="2" cellspacing="0" border="0" style="font:normal 15px Verdana">
 <tr bgcolor="#333333">
 <td WIDTH="60" align="left"></td>
 <td WIDTH="55" align="center" style="color:white"><b>owner
