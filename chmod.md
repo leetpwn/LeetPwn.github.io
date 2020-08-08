@@ -31,7 +31,7 @@ We talked about the owners of the file above. Different types of owners (U, G, o
 
 For example, lets understand what the following modes mean and how they are calculated:
 
-
+<!--
 
 <!--Explain how and why it is calculated -->
 
@@ -96,6 +96,10 @@ For example, lets understand what the following modes mean and how they are calc
     </td>
 </tr>  
 </table>
+
+
+-->
+
 
 <script type="text/javascript">
 <!--
