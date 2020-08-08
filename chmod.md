@@ -231,19 +231,5 @@ window.onload=octalchange
 </table>
 <span style="font:normal 11px Arial">This free JavaScript provided by <a href="http://www.javascriptkit.com">JavaScript Kit</a></span>
 </form>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
